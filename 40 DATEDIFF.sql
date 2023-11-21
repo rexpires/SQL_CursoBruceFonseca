@@ -1,0 +1,7 @@
+USE ContosoRetailDW
+
+
+--DATEDIFF(intervalo, data_inicio, data_fim)
+
+SELECT DATEDIFF(DAY,'2023-07-10', GETDATE()) AS DIA
+SELECT DATEDIFF(MONTH,'2023-07-10', GETDATE()) AS MES

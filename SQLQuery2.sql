@@ -1,0 +1,9 @@
+USE PRIMEIRO_BD
+
+CREATE TABLE CLIENTES
+(
+	ID_CLIENTE int,
+	NOME varchar(30),
+	DATA_CADASTRO datetime,
+	EMAIL varchar(20)
+)
